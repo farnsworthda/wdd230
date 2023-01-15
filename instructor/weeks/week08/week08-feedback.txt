@@ -1,0 +1,29 @@
+Nice job Hugo! I like how you have your form and the Membership info in two columns, that is a nice layout for this.
+
+Your fields can benefit from some additional styling.  Add a border-radius and some padding using relative units such as rem or em.
+
+Center your form within its container by adding this to the css definition:
+width: 70%;
+margin: auto;
+
+Update your input names to use camelCase. html element id should be kabob-case.  Form names should be camelCase.
+
+Add id="membership-info" to the section that contains it.  Enclose each h3 and p tag in an article and then center those articles within the section by setting the width and margin as specified above.  Text should be left justified, you center its container not the text itself.
+
+
+Great job on this assignment, <name>!
+
+<name> this is a great looking form with easy to understand field validation, congrats!
+
+I really like...
+
+Your membership cards correctly flow to the top of the screen, congrats! 
+
+You need to center fields by adding this to your css declaration:
+width: 70%;
+margin: auto;
+
+You need additional space between text and edges for you membership cards.  Add padding to the text container.
+
+Field names should be camelCase not kabob-case or snake_case.  The general rule is html and css use kabob-case and JavaScript uses camelCase.  As input names are passed back to the server or to another page they need to be camelCase.
+
